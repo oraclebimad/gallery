@@ -1,0 +1,64 @@
+<div id="myModal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <img class="modal-thumb-preview" data-ng-src="{{selectedPlugin.thumbnail}}"/>
+          <div class="modal-title-container">
+              <h2>{{selectedPlugin.name}}</h2>
+              <a href="{{selectedPlugin.repo_url}}" target="_blank">Visit Repository</a>
+              <h5>By {{selectedPlugin.author}}</h5>
+          </div>
+          <div class="modal-download-container">
+            <span class="glyphicon glyphicon-remove" data-dismiss="modal" aria-hidden="true"></span>
+            <a class="btn btn-download" href="{{selectedPlugin.download_link}}"><span class="glyphicon glyphicon-cloud-download"></span>Download</a>
+          </div>
+        </div>
+        <div class="modal-body">
+          <ul class="modal-tabs">
+            <li><a href="" ng-click="videoImageTab(true)" ng-class="{active: imageVisible}">Image</a></li>
+            <li><a href="" ng-click="videoImageTab(false)" ng-class="{active: !imageVisible}">Video</a></li>
+          </ul>
+          <h5 class="description-title">Description</h5>
+          <div class="modal-body-left">
+            <div class="animate-show modal-element" ng-animate="'modal-element'" ng-show="imageVisible">
+              <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#carousel-example-generic" ng-repeat="gallery in selectedPlugin.gallery" data-slide-to="{{$index}}" ng-class="{active: $index==0}"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                  <div class="item" ng-repeat="gallery in selectedPlugin.gallery" ng-class="{active: $index==0}">
+                    <img ng-src="{{gallery.img_url}}" alt="...">
+                    <div class="carousel-caption">
+                      <h4>{{gallery.title}}</h4>
+                      <p>{{gallery.description}}</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+            <div ng-hide="imageVisible" class="modal-element animate-show" ng-animate="'modal-element'">
+              <iframe ng-src="{{selectedPlugin.trusted_video_url}}" width="625" height="415" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="modal-body-right">
+            <div class="modal-plugin-description">
+              <p>{{selectedPlugin.description}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
