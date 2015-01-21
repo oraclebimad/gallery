@@ -70,22 +70,9 @@ angular.module('BIMADGallery', ['components'])
 			'video_thumb':'',
 			'video_url': 'http://player.vimeo.com/video/116582567',
 			'author': 'Oracle BIMAD',
-			'download_link':'https://github.com/oraclebimad/donut/archive/master.zip',
-			'description': 
-				'His cu illud prompta, ea falli disputando quo. Mea quis duis simul in, cu putent insolens nominati quo. '+
-				'Congue fierent elaboraret has te, mei in noster fabellas facilisis, has ut quando mnesarchum. Conceptam '+
-				'cotidieque ne quo, odio falli corpora ne mea. Case commune ei cum.\n'+
-				'Lorem ipsum dolor sit amet, no pri libris consetetur, nec epicuri suscipit in. Sit no vidisse maluisset, ' +
-				'mei aeque affert mollis ut. Amet solet recteque id eum. Vis ut oblique omnesque officiis, et soleat fuisset ' +
-				'mea, exerci consul nusquam per te. Ea nam persius voluptaria neglegentur. In error latine equidem sea. \n'+
-				'Ne esse melius consetetur duo. Essent honestatis vis eu, his audiam iriure intellegebat in. Nobis tollit '+
-				'conclusionemque mea no, aperiam pericula concludaturque vix ad. In eum nisl erroribus, ex sea omnes tation '+
-				'consequat. Erat harum voluptua id mea, et vis epicurei definitionem. Platonem iudicabit an qui, tale nobis '+
-				'iisque eos et.\n'+
-				'Everti evertitur at eam, his dicunt impetus te. Ne mea nibh dicit. His alii intellegebat cu, at error '+
-				'cetero mel. Id cum omnesque scripserit reformidans, ex usu omnis nihil. Vel meis latine ullamcorper ut, '+
-				'nec at labores molestie, et aperiam facilis officiis eos.',
-			'repo_url': 'https://github.com/oraclebimad/donut'
+			'download_link':'https://github.com/oraclebimad/Treemap/archive/master.zip',
+			'description': '',
+			'repo_url': 'https://github.com/oraclebimad/Treemap'
 		},
 		{
 			'id':'3',
@@ -111,7 +98,7 @@ angular.module('BIMADGallery', ['components'])
 			'video_thumb':'',
 			'video_url': 'http://player.vimeo.com/video/116582567',
 			'author': 'Oracle BIMAD',
-			'download_link':'https://github.com/oraclebimad/donut/archive/master.zip',
+			'download_link':'https://github.com/oraclebimad/line-chart-color/archive/master.zip',
 			'description': 
 				'His cu illud prompta, ea falli disputando quo. Mea quis duis simul in, cu putent insolens nominati quo. '+
 				'Congue fierent elaboraret has te, mei in noster fabellas facilisis, has ut quando mnesarchum. Conceptam '+
@@ -126,7 +113,7 @@ angular.module('BIMADGallery', ['components'])
 				'Everti evertitur at eam, his dicunt impetus te. Ne mea nibh dicit. His alii intellegebat cu, at error '+
 				'cetero mel. Id cum omnesque scripserit reformidans, ex usu omnis nihil. Vel meis latine ullamcorper ut, '+
 				'nec at labores molestie, et aperiam facilis officiis eos.',
-			'repo_url': 'https://github.com/oraclebimad/donut'
+			'repo_url': 'https://github.com/oraclebimad/line-chart-color'
 		},
 		{
 			'id':'4',
@@ -152,7 +139,7 @@ angular.module('BIMADGallery', ['components'])
 			'video_thumb':'',
 			'video_url': 'http://player.vimeo.com/video/116582567',
 			'author': 'Oracle BIMAD',
-			'download_link':'https://github.com/oraclebimad/donut/archive/master.zip',
+			'download_link':'https://github.com/oraclebimad/line-chart-no-color/archive/master.zip',
 			'description': 
 				'His cu illud prompta, ea falli disputando quo. Mea quis duis simul in, cu putent insolens nominati quo. '+
 				'Congue fierent elaboraret has te, mei in noster fabellas facilisis, has ut quando mnesarchum. Conceptam '+
@@ -167,7 +154,7 @@ angular.module('BIMADGallery', ['components'])
 				'Everti evertitur at eam, his dicunt impetus te. Ne mea nibh dicit. His alii intellegebat cu, at error '+
 				'cetero mel. Id cum omnesque scripserit reformidans, ex usu omnis nihil. Vel meis latine ullamcorper ut, '+
 				'nec at labores molestie, et aperiam facilis officiis eos.',
-			'repo_url': 'https://github.com/oraclebimad/donut'
+			'repo_url': 'https://github.com/oraclebimad/line-chart-no-color'
 		}
 	];
 }]);

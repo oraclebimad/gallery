@@ -248,7 +248,7 @@ footer{
 	
 	.modal-plugin-description {
 		max-height: 415px;
-		overflow-y: scroll;
+		overflow-y: auto;
 	}
 	
 	.modal-plugin-description p 
