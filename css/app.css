@@ -59,7 +59,7 @@ body{
 }
 
 footer{
-	position: relative; /*relative;*/
+	position: absolute; /*relative;*/
 	bottom: 0;
 	padding: 15px 0;
 }

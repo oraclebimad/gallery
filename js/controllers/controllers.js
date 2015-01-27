@@ -49,7 +49,7 @@ angular.module('BIMADGallery', ['components'])
 		},
 		{
 			'id':'3',
-			'name':'Line Bar with Color',
+			'name':'Line Bar Chart with Color',
 			'gallery':
 				[{
 					'img_url': 'img/line-bar-chart-color-1.jpg',
@@ -73,7 +73,7 @@ angular.module('BIMADGallery', ['components'])
 		},
 		{
 			'id':'4',
-			'name':'Line Bar',
+			'name':'Line Bar Chart',
 			'gallery':
 				[{
 					'img_url': 'img/line-bar-chart-1.jpg',
@@ -89,7 +89,7 @@ angular.module('BIMADGallery', ['components'])
 			'description': 
 				'',
 			'repo_url': 'https://github.com/oraclebimad/line-chart-no-color'
-		},
+		}/*,
 		{
 			'id':'5',
 			'name':'Scatterplot',
@@ -113,6 +113,6 @@ angular.module('BIMADGallery', ['components'])
 			'description': 
 				'',
 			'repo_url': 'https://github.com/oraclebimad/scatterplot'
-		}
+		}*/
 	];
 }]);
