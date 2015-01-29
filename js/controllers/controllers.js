@@ -3,7 +3,7 @@ angular.module('BIMADGallery', ['components'])
 	$scope.$watch(function () { return pluginPopup.getPlugin(); }, function (newValue) {
         if (newValue) $scope.popupPlugin = newValue;
     });
-    
+
 	$scope.plugins = [
 		{
 			'id':'1',
@@ -25,7 +25,7 @@ angular.module('BIMADGallery', ['components'])
 			'video_url': 'http://player.vimeo.com/video/117539755',
 			'author': 'Oracle BIMAD',
 			'download_link':'https://github.com/oraclebimad/donut/archive/master.zip',
-			'description': 
+			'description':
 				'',
 			'repo_url': 'https://github.com/oraclebimad/donut'
 		},
@@ -67,7 +67,7 @@ angular.module('BIMADGallery', ['components'])
 			'video_url': 'http://player.vimeo.com/video/117541838',
 			'author': 'Oracle BIMAD',
 			'download_link':'https://github.com/oraclebimad/line-chart-color/archive/master.zip',
-			'description': 
+			'description':
 				'',
 			'repo_url': 'https://github.com/oraclebimad/line-chart-color'
 		},
@@ -86,10 +86,10 @@ angular.module('BIMADGallery', ['components'])
 			'video_url': 'http://player.vimeo.com/video/117530869',
 			'author': 'Oracle BIMAD',
 			'download_link':'https://github.com/oraclebimad/line-chart-no-color/archive/master.zip',
-			'description': 
+			'description':
 				'',
 			'repo_url': 'https://github.com/oraclebimad/line-chart-no-color'
-		}/*,
+		},
 		{
 			'id':'5',
 			'name':'Scatterplot',
@@ -109,10 +109,10 @@ angular.module('BIMADGallery', ['components'])
 			'video_thumb':'',
 			'video_url': 'http://player.vimeo.com/video/117544283',
 			'author': 'Oracle BIMAD',
-			'download_link':'https://github.com/oraclebimad/scatterplot/archive/master.zip',
-			'description': 
+			'download_link':'https://github.com/oraclebimad/scatterplot-plugin/archive/master.zip',
+			'description':
 				'',
-			'repo_url': 'https://github.com/oraclebimad/scatterplot'
-		}*/
+			'repo_url': 'https://github.com/oraclebimad/scatterplot-plugin'
+		}
 	];
 }]);

@@ -59,7 +59,7 @@ body{
 }
 
 footer{
-	position: absolute; /*relative;*/
+	position: relative; /*relative;*/
 	bottom: 0;
 	padding: 15px 0;
 }
@@ -245,13 +245,13 @@ footer{
 		margin-left: 2%;
 		margin-bottom: 0;
 	}
-	
+
 	.modal-plugin-description {
 		max-height: 415px;
 		overflow-y: auto;
 	}
-	
-	.modal-plugin-description p 
+
+	.modal-plugin-description p
 	{
 		font-size: 1em;
 		line-height: 1.5em;
@@ -286,8 +286,8 @@ footer{
 
 	/*MODAL POPUP*/
 	.modal-content {
-		-webkit-box-shadow: none; 
-		box-shadow: none; 
+		-webkit-box-shadow: none;
+		box-shadow: none;
 	}
 	.modal-content {
 		border-radius: 0;
