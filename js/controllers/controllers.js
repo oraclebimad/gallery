@@ -62,7 +62,7 @@ angular.module('BIMADGallery', ['components'])
 					'description': ''
 				}
 				],
-			'thumbnail': 'img/bar-chart-with-color.jpg',
+			'thumbnail': 'img/bar-chart-with-color.png',
 			'video_thumb':'',
 			'video_url': 'http://player.vimeo.com/video/117541838',
 			'author': 'Oracle BIMAD',
@@ -81,7 +81,7 @@ angular.module('BIMADGallery', ['components'])
 					'description': ''
 				}
 				],
-			'thumbnail': 'img/bar-chart-no-color.jpg',
+			'thumbnail': 'img/bar-chart-no-color.png',
 			'video_thumb':'',
 			'video_url': 'http://player.vimeo.com/video/117530869',
 			'author': 'Oracle BIMAD',
