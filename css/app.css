@@ -95,8 +95,8 @@ footer{
 }
 
 .item-thumb{
-	width: 220px;
-	margin-left: 12%;
+	width: 90%;
+	margin-left: 5%;
 	margin-top: 5%;
 }
 
@@ -291,7 +291,14 @@ footer{
 	margin-right: 8px;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 992px){
+	.gallery-item {
+		min-height: 335px;
+	}
+	
+	.plugin-name{
+		min-height: 46px;
+	}
 
 	/*MODAL POPUP*/
 	.modal-content {
@@ -321,6 +328,12 @@ footer{
 		height: 60px;
 		margin-top: -15px;
 		font-size: 30px;
+	}
+}
+
+@media screen and (min-width: 1200px){
+	.plugin-name{
+		min-height: auto;
 	}
 }
 
